@@ -1,0 +1,81 @@
+body {
+    font-family: Arial, sans-serif;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed; 
+    image-rendering: -webkit-optimize-contrast;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-image: url('https://i.pinimg.com/564x/ae/c2/f6/aec2f68bab8c71129dac776bb5479a41.jpg');
+}
+/* 
+.img-container {
+    background-image: url('https://i.pinimg.com/564x/ae/c2/f6/aec2f68bab8c71129dac776bb5479a41.jpg');
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+} */
+h2{
+    font-family:Georgia, 'Times New Roman', Times, serif
+}
+
+.container {
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 80px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .2);
+}
+
+
+.signup-form {
+    width: 300px;
+}
+
+.signup-form h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #333;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.form-group {
+    margin-bottom: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    color: #666;
+}
+
+.form-group input,
+.form-group select {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 7px;
+    box-sizing: border-box;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #0073e6;
+    color: #fff;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #012244;
+}

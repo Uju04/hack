@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vendor Signup Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="img-container">
+        <div class="container">
+            <div class="signup-form">
+                <h2>Create Your Vendor Account</h2>
+                <form id="vendorSignupForm">
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email Address</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="businessName">Business Name</label>
+                        <input type="text" id="businessName" name="businessName" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="services">Services</label>
+                        <select id="services" name="services" required>
+                            <option value="">Select a service</option>
+                            <option value="food">Food</option>
+                            <option value="clothing">Clothing</option>
+                            <option value="snacks">Snacks</option>
+                            <option value="technology">Technology</option>
+                            <option value="grooming and styling">Grooming and Styling</option>
+                            <option value="photography">Photography</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="password">Password</label>
+                        <input type="password" id="password" name="password" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="confirmPassword">Confirm Password</label>
+                        <input type="password" id="confirmPassword" name="confirmPassword" required>
+                    </div>
+                    <button type="submit">Sign Up</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <script src="scripts.js"></script>
+</body>
+</html>
